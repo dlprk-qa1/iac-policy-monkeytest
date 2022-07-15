@@ -19,6 +19,7 @@ steps:
     failBuild: true
     clientId: 'sTfzX3UQZJ1rNcTplacWdYgRoasDO0Sr'
     clientSecret: 'CdT8ctkb-OsW_7Ci1P7stlYoH0m4ewb-2z4wobqpsXEZMUnVCrotFWwzwvTzcZ6T'  
+    iacfile: ec3.tf
   env:
     AUTH_URL: "https://int-auth.zscwp.io"
     API_URL: "https://int.api.zscwp.io"       
