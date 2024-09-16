@@ -13,6 +13,7 @@ resource "google_sql_database_instance" "local_infile" {
   }
 }
 }
+#test
 resource "google_sql_database_instance" "skip" {
   name             = var.mysqldbname
   database_version = var.mysqldbversion

@@ -13,6 +13,7 @@ resource "google_compute_instance" "confidential" {
      enable_confidential_compute = false
   }
 }
+#test
 resource "google_compute_instance" "integrity" {
   name         = var.gcp_name
   machine_type = var.machine_type
